@@ -1,0 +1,22 @@
+{
+    "testId": "0cb3bbab-554d-4f2a-8c6a-30dad6556171",
+    "name": "Infographics Generator",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "documentSandbox": "code.js"
+        }
+    ]
+}
